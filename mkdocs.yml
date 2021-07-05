@@ -1,0 +1,108 @@
+## Project information
+site_name: LegalTech for Consumer Protection
+site_url: https://github.com/pedrohserrano/legaltech-consumer-protection
+site_description: A Network Analysis Framework to perform Legal Analytics jobs
+
+## Repository
+repo_name: Github
+repo_url: https://github.com/pedrohserrano/legaltech-consumer-protection
+edit_uri: ''  #disables edit button
+
+# Copyright
+copyright: Maastrich University
+
+## Social Media
+extra:
+  social:
+    - icon: fontawesome/solid/home
+      link: https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/maastrichtlawtech
+    - icon: fontawesome/solid/envelope
+      link: mailto:law-techlab@maastrichtuniversity.nl
+
+## Page tree
+nav:
+    - Home: index.md
+    - Tools:
+      - Personabot: PersonaBot.md
+      - Facebook API: data_raw_inspection.ipynb
+    - Legal:
+        - License: License.md
+        - Privacy Policy: privacy-policy.md
+
+## Configuration
+theme:
+  name: bootstrap4
+  #custom_dir: docs/theme_override_home/
+  # 404 page
+  # static_templates:
+  #   - 404.html
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.tabs
+  font:
+    text: Hind Siliguri
+    code: Roboto Mono
+  icon:  # from .icons path. Add to theme override for custom logo.
+    logo: UM_logo   # top left header logo
+  favicon: assets/favicon-um.png  #browser tab logo
+
+## Plugins
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: False
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_root_heading: false
+            show_source: true
+            show_category_heading: true
+          selection:
+            filters:
+              - "!^_"  # exlude all members starting with _
+
+
+# ## Extensions
+# markdown_extensions:
+#   - markdown.extensions.admonition
+#   - markdown.extensions.attr_list
+#   - markdown.extensions.def_list
+#   - markdown.extensions.footnotes
+#   - markdown.extensions.meta
+#   - markdown.extensions.toc:
+#       baselevel: 1
+#       permalink: true
+#   - pymdownx.arithmatex
+#   - pymdownx.betterem:
+#       smart_enable: all
+#   - pymdownx.caret
+#   - pymdownx.critic
+#   - pymdownx.details
+#   - pymdownx.emoji
+#   - pymdownx.highlight
+#   - pymdownx.inlinehilite
+#   - pymdownx.keys
+#   - pymdownx.magiclink:
+#   - pymdownx.mark
+#   - pymdownx.smartsymbols
+#   - pymdownx.snippets:
+#       check_paths: true
+#   - pymdownx.superfences
+#   - pymdownx.tabbed
+#   - pymdownx.tasklist:
+#       custom_checkbox: true
+#   - pymdownx.tilde
+#   - pymdownx.tabbed
+#   - mkdocs-click
+
+# # google_analytics:
+# #   - 'UA-132885718-1'
+# #   - 'auto'
