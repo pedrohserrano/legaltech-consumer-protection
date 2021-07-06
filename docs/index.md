@@ -1,4 +1,12 @@
-## Project 
+# LegalTech for Consumer Protection Research
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+
+### Background
+---
 
 Consumer Protection is a filed that
 Legal Technologies come to aleviate this
@@ -30,13 +38,20 @@ The current tool is based on [Perfect Graph](https://sabaturgay.github.io/perfec
 ![](assets/perfectgraph.png)
 
 
-## Events
+### Links
+---
 
-- 
+### Publications
+---
 
-## Researchers
+### Contact
+---
 
-- Caroline Cauffman
-- Pedro V Hernandez Serrano
+- [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) - **Researcher, Institute of Data Science** - [p.hernandezserrano@maastrichtuniversity.nl](mailto:p.hernandezserrano@maastrichtuniversity.nl)
+- [Caroline Cauffman](https://www.maastrichtuniversity.nl/caroline.cauffman) - **Associate Professor, Faculty of Law** - [caroline.cauffman@maastrichtuniversity.nl](mailto:caroline.cauffman@maastrichtuniversity.nl)
 
-## Publications
+    **Research Assistants**
+    - Student 1
+    - Student 2
+    - Student 3
+

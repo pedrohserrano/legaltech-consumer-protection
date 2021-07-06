@@ -5,28 +5,20 @@ site_description: A Network Analysis Framework to perform Legal Analytics jobs
 
 ## Repository
 repo_name: Github
-repo_url: https://github.com/pedrohserrano/legaltech-consumer-protection
+#repo_url: https://github.com/pedrohserrano/legaltech-consumer-protection
 edit_uri: ''  #disables edit button
 
 # Copyright
-copyright: Maastrich University
-
-## Social Media
-extra:
-  social:
-    - icon: fontawesome/solid/home
-      link: https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/maastrichtlawtech
-    - icon: fontawesome/solid/envelope
-      link: mailto:law-techlab@maastrichtuniversity.nl
+copyright: Copyright© 2019 - 2021, Maastrich University
 
 ## Page tree
 nav:
-    - Home: index.md
+    - Project: index.md
     - Tools:
-      - Personabot: PersonaBot.md
-      - Facebook API: data_raw_inspection.ipynb
+      - Google PersonaBot: PersonaBot.ipynb
+      - Facebook Ads API: Facebook_Ads_API.ipynb
+      - Dutch Products Crawler: Dutch_Products_Crawler.ipynb
+      - Facebook PersonaBot: Facebook_PersonaBot.ipynb
     - Legal:
         - License: License.md
         - Privacy Policy: privacy-policy.md
@@ -34,11 +26,6 @@ nav:
 ## Configuration
 theme:
   name: bootstrap4
-  #custom_dir: docs/theme_override_home/
-  # 404 page
-  # static_templates:
-  #   - 404.html
-  # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
   # Default values, taken from mkdocs_theme.yml
@@ -71,11 +58,13 @@ plugins:
 
 
 # ## Extensions
-# markdown_extensions:
-#   - markdown.extensions.admonition
-#   - markdown.extensions.attr_list
-#   - markdown.extensions.def_list
-#   - markdown.extensions.footnotes
+#  markdown_extensions:
+#    - markdown.extensions.admonition
+#    - markdown.extensions.attr_list
+#    - markdown.extensions.def_list
+   #- markdown.extensions.footnotes
+   #- pymdownx.details
+   #- pymdownx.superfences
 #   - markdown.extensions.meta
 #   - markdown.extensions.toc:
 #       baselevel: 1
@@ -85,7 +74,6 @@ plugins:
 #       smart_enable: all
 #   - pymdownx.caret
 #   - pymdownx.critic
-#   - pymdownx.details
 #   - pymdownx.emoji
 #   - pymdownx.highlight
 #   - pymdownx.inlinehilite
@@ -95,7 +83,6 @@ plugins:
 #   - pymdownx.smartsymbols
 #   - pymdownx.snippets:
 #       check_paths: true
-#   - pymdownx.superfences
 #   - pymdownx.tabbed
 #   - pymdownx.tasklist:
 #       custom_checkbox: true
