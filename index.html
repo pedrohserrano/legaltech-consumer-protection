@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <script>
+	// Hack for scrolling window when linking to anchor tag with fixed nav header
+        var shiftWindow = function() { scrollBy(0, -75) };
+        window.addEventListener("hashchange", shiftWindow);
+        function load() { if (window.location.hash) shiftWindow(); }
+      </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A Network Analysis Framework to perform Legal Analytics jobs">
+        
+        <link rel="canonical" href="https://github.com/pedrohserrano/legaltech-consumer-protection/">
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <title>LegalTech for Consumer Protection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    <link href="assets/_mkdocstrings.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/base.js"></script> 
+    </head>
+
+    <body class="homepage ">
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<div class="container">
+	<a class="navbar-brand" href=".">LegalTech for Consumer Protection</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse">
+          <!-- Main navigation -->
+          <nav class="nav">
+            <ul class="navbar-nav">
+              <li class="active">
+                <a class="nav-link" href=".">Project</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" role="button" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="nav-dropdown-Tools">Tools <b class="caret"></b></a>
+                <div class="dropdown-menu" aria-labelledby="nav-dropdown-Tools">
+                  
+<a href="PersonaBot/" class="dropdown-item">Google PersonaBot</a>
+                  
+<a href="Facebook_Ads_API/" class="dropdown-item">Facebook Ads API</a>
+                  
+<a href="Dutch_Products_Crawler/" class="dropdown-item">Dutch Products Crawler</a>
+                  
+<a href="Facebook_PersonaBot/" class="dropdown-item">Facebook PersonaBot</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" role="button" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="nav-dropdown-Legal">Legal <b class="caret"></b></a>
+                <div class="dropdown-menu" aria-labelledby="nav-dropdown-Legal">
+                  
+<a href="License/" class="dropdown-item">License</a>
+                  
+<a href="privacy-policy/" class="dropdown-item">Privacy Policy</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+		<i class="fa fa-search"></i> Search
+              </a>
+            </li>
+          </ul>
+	</div>
+	</div>
+      </nav><div id="content" class="container">
+        
+      <div class="row">
+        <div class="col-md-9" role="main">
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    
+    <li class="breadcrumb-item active" aria-current="page">Project</li>
+  </ol>
+</nav>
+
+
+<h1 id="legaltech-for-consumer-protection-research">LegalTech for Consumer Protection Research</h1>
+<hr />
+<p>Legal Technologies for Consumer Protection is a Maastricht University interdisciplinary research conducted by the Maastricht Law &amp; Tech Lab, the Institute of Data Science, and the <a href="https://www.acm.nl/en">Authority for Consumer and Markets in the Netherlands</a>. <strong>This research aims to explore the legal and technical means for developing innovative and transparent LegalTech software for consumer protection purposes.</strong></p>
+<hr />
+<!-- ![](assets/network_consumers.png) -->
+<p><img src="assets/network_consumers.png" alt="drawing" width="690"/></p>
+<h3 id="background">Background</h3>
+<hr />
+<p>The project builds on work carried out for DJ Justice and Consumers <strong>Exploring IT/AI tools for monitoring online markets for consumer policy purposes</strong> JUST/2018/CONS/PR/CO01/0123 and a project carried out in cooperation with the Dutch authority for consumers and markets and supported by the NWO <strong>Using AI for Consumer Protection: creating AI based persona for mystery shopping</strong>. The project aims to create and improve methods for discovering discovering in e-commerce and online advertising in view of the detection of infringements of existing legal rules and further policy development in the fields of consumer law, antidiscrimination law and privacy protection building gon interdisciplinary law and technology research.</p>
+<p>The 2019 Consumer protection regulation allows consumer authorities to conduct data analysis and online mystery shopping, meaning that a consumer authority may pretend to be a consumer with certain characteristics in order to find out how the (online) seller treats the consumer and, in particular, whether one consumer gets different prices, different advertising etc. than another consumer based on eg. his characterisation as a deal hunter or a negligent shopper. These selling practices are made possible by algorithmic personalized content using data analytics and computer engineering that often cross the line of the prohibition of unfair commercial practices and infringe the rights of consumers.  </p>
+<p>A new breed of Legal technologies appears to be equipped to perform investigations on these issues. Not only consumer law enforcement bodies are primarily benefited by the development of these technologies but also scholars, the goal is to study challenging questions and implement prototypes both from a legal and technical perspectives.  </p>
+<h3 id="publications">Publications</h3>
+<hr />
+<p><strong>A New Order: The Digital Services Act and Consumer Protection</strong><br />
+European Journal of Risk Regulation - License CC BY 4.0<br />
+Read the paper: <a href="https://www.researchgate.net/publication/350917767_A_New_Order_The_Digital_Services_Act_and_Consumer_Protection">DOI: 10.1017/err.2021.8</a>  </p>
+<p><strong>An exploratory study of information technology (IT) and artificial intelligence (AI) tools for consumer protection in digital markets</strong><br />
+Symposium Consumer and Data Privacy 2020: <a href="https://www.maastrichtuniversity.nl/events/symposium-consumer-and-data-privacy-digital-revolution-legal-social-and-economic-interaction">Conference</a><br />
+Poster and Findings: <a href="https://www.researchgate.net/publication/348937412_An_exploratory_study_of_information_technology_IT_and_artificial_intelligence_AI_tools_for_consumer_protection_in_digital_markets_An_European_Commission_Tender">DOI: 10.13140/RG.2.2.10144.30724</a><br />
+Read the report: <a href="https://drive.google.com/file/d/1c628y57bWE9gPV27oFSPz8bU18kZ82-v/view?usp=sharing">Public version</a></p>
+<p><strong>Researching algorithmic unintentional discrimination in online advertisement and e-commerce</strong><br />
+Working paper: <a href="https://drive.google.com/file/d/1KbCoSF8WMNm96QwaRHSV_dIEf-Lb8m7_/view?usp=sharing">Preprint</a><br />
+Presentation: <a href="https://docs.google.com/presentation/d/e/2PACX-1vSf1i7VjWyRfFLa4Kyyc0LZjbuPnX2oZc1LZ3wI1cXr9B4FzTPqglC0drcGRhytPGfq7nGO6zVO4o6m/pub?start=false&amp;loop=false&amp;delayms=5000">Slides</a>  </p>
+<h3 id="software">Software</h3>
+<hr />
+<p>‣ <a href="https://pedrohserrano.github.io/legaltech-consumer-protection/docs/PersonaBot.ipynb">PersonaBot for Google Ads</a><br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+<p>‣ Analysis of Facebook Ads API
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+<p>‣ Dutch Products Crawler
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+<p>‣ PersonaBot for Facebook Ads<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+<h3 id="links">Links</h3>
+<hr />
+<p><strong>Webinar on Researching Discrimination in E-Commerce and Online Advertising:</strong><br />
+4 and 5 March 2021: <a href="https://www.maastrichtuniversity.nl/events/researching-discrimination-e-commerce-and-online-advertising-webinar">Original event</a><br />
+Webinar report: <a href="https://docs.google.com/document/d/e/2PACX-1vTmgfNMXLEvlQCYfF9jtB7Nc_a3n1qGQCNraPnkAweTsB6E8FDJXIn4fDtlrHOY3Q/pub">Read the report</a>  </p>
+<p><strong>M-EPLI</strong><br />
+<a href="https://www.maastrichtuniversity.nl/research/m-epli/m-epli-talks">Agenda</a>  </p>
+<p><strong>Maastricht Law &amp; TechLab</strong><br />
+<a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab">Website</a>  </p>
+<h3 id="contact">Contact</h3>
+<hr />
+<ul>
+<li><a href="https://www.maastrichtuniversity.nl/caroline.cauffman">Caroline Cauffman</a> | <strong>Associate Professor, Faculty of Law</strong><br />
+<a href="mailto:caroline.cauffman@maastrichtuniversity.nl">caroline.cauffman@maastrichtuniversity.nl</a></li>
+<li>
+<p><a href="https://www.maastrichtuniversity.nl/p.hernandezserrano">Pedro V Hernandez Serrano</a> | <strong>Researcher, Institute of Data Science</strong><br />
+<a href="mailto:p.hernandezserrano@maastrichtuniversity.nl">p.hernandezserrano@maastrichtuniversity.nl</a></p>
+<p><strong>Research Assistants</strong><br />
+    - Kiril<br />
+    - Pranav<br />
+    - Laura  </p>
+</li>
+</ul>
+
+<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+  <li class="last-updated-holder displayDate loading">
+    <span class="last-updated-text">Last updated:</span>
+    <time role="presentation" datetime="2018-10-25T00:00:00.000Z" data-article-date-source="ms.date"></time>
+  </li>
+<!--
+  <li class="readingTime">
+    2 minutes to read
+  </li>
+-->
+  <li class="contributors-holder">
+    <span class="contributors-text">Contributors</span>
+    <ul class="contributors" data-bi-name="contributors"></ul>
+  </li>
+</ul>
+</div>
+        <div class="col-md-3"><div class="navbar-light navbar-expand-md hidden-print sticky-top sticky-offset" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    <div id="toc-collapse" class="navbar-collapse collapse card">
+        <ul class="nav flex-column bs-sidenav">
+            <li class="nav-item main"><a class="nav-link" href="#legaltech-for-consumer-protection-research">LegalTech for Consumer Protection Research</a></li>
+                <li class="nav-item">
+                    <a href="#background" class="nav-link">Background</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#software" class="nav-link">Software</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#links" class="nav-link">Links</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+        </ul>
+    </div>
+</div></div>
+      </div>
+      </div>
+
+      <footer class="col-md-12">
+	<hr>
+	<div class="container">
+	  <p>Copyright© 2019 - 2021 ‣ Maastrich University</p>
+	</div>
+      </footer>
+      <script>
+	var base_url = ".",
+            shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+      </script>
+      <script src="js/base.js" defer></script>
+
+      <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="h4 modal-title">Keyboard Shortcuts</p>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.2.1
+Build Date UTC : 2021-07-06 12:31:15.853637+00:00
+-->
