@@ -1,7 +1,7 @@
 ## Project information
 site_name: LegalTech for Consumer Protection
 site_url: https://github.com/pedrohserrano/legaltech-consumer-protection
-site_description: A Network Analysis Framework to perform Legal Analytics jobs
+site_description: Legal Technologies for Consumer Protection is a Maastricht University research project
 
 ## Repository
 repo_name: Github
@@ -14,7 +14,7 @@ copyright: Copyright© 2019 - 2021 ‣ Maastrich University
 ## Page tree
 nav:
     - Project: index.md
-    - Tools:
+    - Software:
       - Google PersonaBot: PersonaBot.ipynb
       - Facebook Ads API: Facebook_Ads_API.ipynb
       - Dutch Products Crawler: Dutch_Products_Crawler.ipynb

@@ -1,4 +1,4 @@
-# LegalTech for Consumer Protection Research
+# LegalTech for Consumer Protection
 
 ------
 
@@ -24,55 +24,56 @@ A new breed of Legal technologies appears to be equipped to perform investigatio
 ### Publications
 ---
 
-**A New Order: The Digital Services Act and Consumer Protection**  
+‣ **A New Order: The Digital Services Act and Consumer Protection**  
 European Journal of Risk Regulation - License CC BY 4.0  
 Read the paper: [DOI: 10.1017/err.2021.8](https://www.researchgate.net/publication/350917767_A_New_Order_The_Digital_Services_Act_and_Consumer_Protection)  
 
-**An exploratory study of information technology (IT) and artificial intelligence (AI) tools for consumer protection in digital markets**  
+‣ **An exploratory study of information technology (IT) and artificial intelligence (AI) tools for consumer protection in digital markets**  
 Symposium Consumer and Data Privacy 2020: [Conference](https://www.maastrichtuniversity.nl/events/symposium-consumer-and-data-privacy-digital-revolution-legal-social-and-economic-interaction)  
 Poster and Findings: [DOI: 10.13140/RG.2.2.10144.30724](https://www.researchgate.net/publication/348937412_An_exploratory_study_of_information_technology_IT_and_artificial_intelligence_AI_tools_for_consumer_protection_in_digital_markets_An_European_Commission_Tender)  
 Read the report: [Public version](https://drive.google.com/file/d/1c628y57bWE9gPV27oFSPz8bU18kZ82-v/view?usp=sharing)
 
-**Researching algorithmic unintentional discrimination in online advertisement and e-commerce**  
+‣ **Researching algorithmic unintentional discrimination in online advertisement and e-commerce**  
 Working paper: [Preprint](https://drive.google.com/file/d/1KbCoSF8WMNm96QwaRHSV_dIEf-Lb8m7_/view?usp=sharing)  
 Presentation: [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSf1i7VjWyRfFLa4Kyyc0LZjbuPnX2oZc1LZ3wI1cXr9B4FzTPqglC0drcGRhytPGfq7nGO6zVO4o6m/pub?start=false&loop=false&delayms=5000)  
 
 ### Software
 ---
-‣ [PersonaBot for Google Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/docs/PersonaBot.ipynb)  
+‣ [PersonaBot for Google Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/PersonaBot/)  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
-‣ Analysis of Facebook Ads API
+‣ [Analysis of Facebook Ads API](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_API/)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
-‣ Dutch Products Crawler
+‣ [Dutch Products Crawler](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Products_Crawler/)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
-‣ PersonaBot for Facebook Ads  
+‣ [PersonaBot for Facebook Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_PersonaBot/)  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
 
 ### Links
 ---
-**Webinar on Researching Discrimination in E-Commerce and Online Advertising:**  
+‣ **Webinar on Researching Discrimination in E-Commerce and Online Advertising:**  
 4 and 5 March 2021: [Original event](https://www.maastrichtuniversity.nl/events/researching-discrimination-e-commerce-and-online-advertising-webinar)  
 Webinar report: [Read the report](https://docs.google.com/document/d/e/2PACX-1vTmgfNMXLEvlQCYfF9jtB7Nc_a3n1qGQCNraPnkAweTsB6E8FDJXIn4fDtlrHOY3Q/pub)  
 
-**M-EPLI**  
+‣ **M-EPLI**  
 [Agenda](https://www.maastrichtuniversity.nl/research/m-epli/m-epli-talks)  
 
-**Maastricht Law & TechLab**  
+‣ **Maastricht Law & TechLab**  
 [Website](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)  
 
 ### Contact
 ---
-- [Caroline Cauffman](https://www.maastrichtuniversity.nl/caroline.cauffman) | **Associate Professor, Faculty of Law**  
-[caroline.cauffman@maastrichtuniversity.nl](mailto:caroline.cauffman@maastrichtuniversity.nl)
-- [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) | **Researcher, Institute of Data Science**  
-[p.hernandezserrano@maastrichtuniversity.nl](mailto:p.hernandezserrano@maastrichtuniversity.nl)
+‣  [Caroline Cauffman](https://www.maastrichtuniversity.nl/caroline.cauffman) | **Associate Professor, Faculty of Law**  
+[caroline.cauffman@maastrichtuniversity.nl](mailto:caroline.cauffman@maastrichtuniversity.nl)   
 
-    **Research Assistants**  
-        - Kiril  
-        - Pranav  
-        - Laura  
+‣  [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) | **Researcher, Institute of Data Science**  
+[p.hernandezserrano@maastrichtuniversity.nl](mailto:p.hernandezserrano@maastrichtuniversity.nl)  
+
+**Research Assistants**  
+    - Kirill Shchervakov  
+    - Pranav Bapat  
+    - Laura Robinson
 
