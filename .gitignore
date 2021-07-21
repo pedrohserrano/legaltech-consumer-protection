@@ -128,5 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Facebook token
-/docs/TOKEN.txt
+
+# notebook checkpoints
+.ipynb_checkpoints/

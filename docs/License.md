@@ -1,6 +1,5 @@
 ## Creative Commons Legal Code 
-
-## Attribution-NonCommercial 4.0 International
+[creativecommons.org/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
 
     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
     LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
@@ -11,7 +10,6 @@
     THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
     HEREUNDER.
 
-[creativecommons.org/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
 ### Using Creative Commons Public Licenses
 
 Creative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.

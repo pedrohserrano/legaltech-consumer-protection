@@ -15,13 +15,14 @@ copyright: Copyright© 2019 - 2021 ‣ Maastrich University
 nav:
     - Project: index.md
     - Software:
+      - Facebook Ads API: Facebook_Ads_API.html
       - Google PersonaBot: PersonaBot.ipynb
-      - Facebook Ads API: Facebook_Ads_API.ipynb
-      - Dutch Products Crawler: Dutch_Products_Crawler.ipynb
+      - Dutch Products Crawler: Dutch_Products_Prices_Analysis.html
       - Facebook PersonaBot: Facebook_PersonaBot.ipynb
     - Legal:
         - License: License.md
-        - Privacy Policy: privacy-policy.md
+        - Privacy Policy: privacy-policy.html
+        - Anonymity: Anonymity.md
 
 ## Configuration
 theme:
