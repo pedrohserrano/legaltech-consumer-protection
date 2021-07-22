@@ -48,20 +48,21 @@ This internet browsing data comes from different sources (or a combination that 
 
 Therefore, as of 2021, there is no one-size-fits-all technique that can be used to create AI-based Personas for online mystery shopping. However, it is possible to implement separate LegalTech software for investigations and compose user interfaces that can unite them all.
 
-‣ [Facebook Ads API](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_API/)  
+‣ **[Facebook Ads API](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_API/)**  
 This technology is a ready-to-use **Ads Data Analysis Pipeline** written in Python that uses the official **Facebook Graph API** to access the Facebook Ads library and gather Ads data at scale. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **8,000 Facebook Ads from the Netherlands** getting key insights of **advertisement practices** on the 2021 Dutch General Elections.
 
-‣ [PersonaBot for Facebook Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_PersonaBot/)  
+‣ **[PersonaBot for Facebook Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_PersonaBot/)**  
 The Facebook PersonaBot is an in-house build **Python library that simulates user-agent** browsing behaviour in the **Facebook news feed**. This library is based on the Selenium web-drivers family and aims to train user-agents on different consumer traits (e.g. middle-aged female gamer) and therefore get exposed to Facebook personalized advertisement. The methodology was tested in a small set-up where Ads screenshots were collected based on different Personas.
 
-‣ [PersonaBot for Google Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/PersonaBot/)  
+‣ **[PersonaBot for Google Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/PersonaBot/)**  
 The Google PersonaBot is an in-house build **Python library that simulates user-agent** browsing through a set of predefined websites that are proxy for certain consumer traits. This library is based on the Selenium web-drivers family and aims to train user-agents on the defined consumer traits (religious male elderly) and therefore get exposed to personalized advertisement Google Ads in neutral websites. The methodology was tested in a small set-up where Ads screenshots were collected based on different Personas.
 
-‣ [Dutch Products Crawler](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Products_Crawler/)  
+‣ **[Dutch Products Crawler](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Products_Crawler/)**  
 This technology is an automated web scrapper, highly configurable and integrated with CD/CI Github deployments. This library is a Python-based Selenium web-driver that neatly visits the most popular retail websites from the Netherlands and collects Dutch products information including products descriptions, prices and sellers. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **200 Dutch Products** getting key insights of **algorithmic pricing** from different sellers.
 
 ---
-**Can these technologies be used in anonymity by consumer protection authorities to conduct investigations? Yes, [more info here.](https://pedrohserrano.github.io/legaltech-consumer-protection/Anonymity.md/)**
+**Can these technologies be used in anonymity by consumer protection authorities to conduct investigations?**  
+**Yes, [more info here.](https://pedrohserrano.github.io/legaltech-consumer-protection/Anonymity/)**
 
 ---
 ### Links

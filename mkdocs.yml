@@ -21,7 +21,7 @@ nav:
       - Facebook PersonaBot: Facebook_PersonaBot.ipynb
     - Legal:
         - License: License.md
-        - Privacy Policy: privacy-policy.html
+        - Privacy Policy: privacy-policy.md
         - Anonymity: Anonymity.md
 
 ## Configuration
