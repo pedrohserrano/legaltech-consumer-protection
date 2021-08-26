@@ -21,6 +21,10 @@ A new breed of legal technologies appears to be equipped to perform investigatio
 ### Publications
 ---
 
+‣ **Editorial: Discrimination in Online Advertising**  
+Maastricht Journal of European and Comparative Law - Open Access  
+Read the paper: [DOI: 10.1177/1023263X211022526](https://journals.sagepub.com/doi/full/10.1177/1023263X211022526)
+
 ‣ **A New Order: The Digital Services Act and Consumer Protection**  
 European Journal of Risk Regulation - License CC BY 4.0  
 Read the paper: [DOI: 10.1017/err.2021.8](https://www.researchgate.net/publication/350917767_A_New_Order_The_Digital_Services_Act_and_Consumer_Protection)  
@@ -48,8 +52,8 @@ This internet browsing data comes from different sources (or a combination that 
 
 Therefore, as of 2021, there is no one-size-fits-all technique that can be used to create AI-based Personas for online mystery shopping. However, it is possible to implement separate LegalTech software for investigations and compose user interfaces that can unite them all.
 
-‣ **[Facebook Ads API](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_API/)**  
-This technology is a ready-to-use **Ads Data Analysis Pipeline** written in Python that uses the official **Facebook Graph API** to access the Facebook Ads library and gather Ads data at scale. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **8,000 Facebook Ads from the Netherlands** getting key insights of **advertisement practices** on the 2021 Dutch General Elections.
+‣ **[Facebook Ads API](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_API.html)**  
+This technology is a ready-to-use **Ads Data Analysis Pipeline** written in Python that uses the official **Facebook Graph API** to access the Facebook Ads library and gather Ads data at scale. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **8,000 Facebook Ads from the Netherlands** given that Facebook Ads API **only** allows accessing `Social Issues, Elections or Politics` category. We gathered key insights of **advertisement practices** about housing and credit as use case example.
 
 ‣ **[PersonaBot for Facebook Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_PersonaBot/)**  
 The Facebook PersonaBot is an in-house build **Python library that simulates user-agent** browsing behaviour in the **Facebook news feed**. This library is based on the Selenium web-drivers family and aims to train user-agents on different consumer traits (e.g. middle-aged female gamer) and therefore get exposed to Facebook personalized advertisement. The methodology was tested in a small set-up where Ads screenshots were collected based on different Personas.
@@ -57,16 +61,20 @@ The Facebook PersonaBot is an in-house build **Python library that simulates use
 ‣ **[PersonaBot for Google Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/PersonaBot/)**  
 The Google PersonaBot is an in-house build **Python library that simulates user-agent** browsing through a set of predefined websites that are proxy for certain consumer traits. This library is based on the Selenium web-drivers family and aims to train user-agents on the defined consumer traits (religious male elderly) and therefore get exposed to personalized advertisement Google Ads in neutral websites. The methodology was tested in a small set-up where Ads screenshots were collected based on different Personas.
 
-‣ **[Dutch Products Crawler](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Products_Crawler/)**  
+‣ **[Dutch Products Crawler](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Products_Prices_Analysis.html)**  
 This technology is an automated web scrapper, highly configurable and integrated with CD/CI Github deployments. This library is a Python-based Selenium web-driver that neatly visits the most popular retail websites from the Netherlands and collects Dutch products information including products descriptions, prices and sellers. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **200 Dutch Products** getting key insights of **algorithmic pricing** from different sellers.
+
+‣ **[Spoofing User-Agent and Location](https://pedrohserrano.github.io/legaltech-consumer-protection/Spoofing/)**  
+**Spoof Timezone** and **User-Agent Switcher and Manager** are external opens source tools that can be used to fake one's location and user-agent (device, browser, operating system). The tools come as browser extensions, we have tested them and created tutorials for investigation purposes.
 
 ---
 **Can these technologies be used in anonymity by consumer protection authorities to conduct investigations?**  
-**Yes, [more info here.](https://pedrohserrano.github.io/legaltech-consumer-protection/Anonymity/)**
+**Yes, [more info on spoofing technologies section under the "Undercover agent anonymity" section.](https://pedrohserrano.github.io/legaltech-consumer-protection/Spoofing/)**
 
 ---
 ### Links
 ---
+
 ‣ **Webinar on Researching Discrimination in E-Commerce and Online Advertising:**  
 4 and 5 March 2021: [Original event](https://www.maastrichtuniversity.nl/events/researching-discrimination-e-commerce-and-online-advertising-webinar)  
 Webinar report: [Read the report](https://docs.google.com/document/d/e/2PACX-1vTmgfNMXLEvlQCYfF9jtB7Nc_a3n1qGQCNraPnkAweTsB6E8FDJXIn4fDtlrHOY3Q/pub)  
@@ -78,6 +86,12 @@ All our software is build and tested at scale in the DSRI cluster for computer s
 ‣ **M-EPLI: Maastricht European Private Law Institue**  
 [Website](https://www.maastrichtuniversity.nl/M-EPLI)  and [M-EPLI talks](https://www.maastrichtuniversity.nl/research/m-epli/m-epli-talks)   
 
+‣ **Related Work**  
+
+[AdAnalyst](https://chrome.google.com/webstore/detail/adanalyst/dichdbdjmcpgniopphedodbhkcdkoglm) is a browser extension aimed to collect infoprmation about Facebook Ads and investigates advertising practices at scale, this work is result of a research project, [learn more here](https://adanalyst.mpi-sws.org).    
+
+[OpenWPM](https://openwpm.readthedocs.io/en/latest/) web privacy measurement framework which makes it easy to collect data for privacy studies on a scale of thousands to millions of websites. OpenWPM is built on top of Firefox, with automation provided by Selenium. [learn more here](https://github.com/mozilla/OpenWPM).
+
 ---
 ### People
 ---
@@ -85,9 +99,9 @@ All our software is build and tested at scale in the DSRI cluster for computer s
 [p.hernandezserrano@maastrichtuniversity.nl](mailto:p.hernandezserrano@maastrichtuniversity.nl) 
 
 ‣  [Catalina Goanta](https://www.maastrichtuniversity.nl/nl/catalina.goanta) | **Assistant Professor in Private Law, Faculty of Law**  
-[catalina​.​goanta​@​​maastricht​university​.​nl](mailto:catalina​.​goanta​@​​maastricht​university​.​nl)  
+[catalina.goanta@maastrichtuniversity.nl](mailto:catalina.goanta@maastrichtuniversity.nl)  
 
-‣  [Caroline Cauffman](https://www.maastrichtuniversity.nl/caroline.cauffman) | **Associate Professor in Private Law, Faculty of Law**  
+‣  [Caroline Cauffman](https://www.maastrichtuniversity.nl/caroline.cauffman) | **Associate Professor in Consumer and Competition Law, Faculty of Law**  
 [caroline.cauffman@maastrichtuniversity.nl](mailto:caroline.cauffman@maastrichtuniversity.nl)   
 
 **Research Assistants**  

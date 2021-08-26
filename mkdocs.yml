@@ -19,10 +19,10 @@ nav:
       - Google PersonaBot: PersonaBot.ipynb
       - Dutch Products Crawler: Dutch_Products_Prices_Analysis.html
       - Facebook PersonaBot: Facebook_PersonaBot.ipynb
+      - Spoofing Technologies: Spoofing.md
     - Legal:
         - License: License.md
         - Privacy Policy: privacy-policy.md
-        - Anonymity: Anonymity.md
 
 ## Configuration
 theme:
