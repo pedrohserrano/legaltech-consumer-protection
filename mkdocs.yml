@@ -15,11 +15,11 @@ copyright: Copyright© 2019 - 2021 ‣ Maastrich University
 nav:
     - Project: index.md
     - Software:
-      - Facebook Ads API: Facebook_Ads_API.html
-      - Google PersonaBot: PersonaBot.ipynb
-      - Dutch Products Crawler: Dutch_Products_Prices_Analysis.html
-      - Facebook PersonaBot: Facebook_PersonaBot.ipynb
-      - Spoofing Technologies: Spoofing.md
+      - Facebook Ads Auditing: Facebook_Ads_Auditing.ipynb
+      - Google Ads PersonaBot: PersonaBot.ipynb
+      - Dutch Prices CrawlerBot: Dutch_Prices_CrawlerBot.ipynb
+      - Facebook Ads CrawlerBot: Facebook_Ads_CrawlerBot.ipynb
+      - Spoofing Technologies: spoofing.md
     - Legal:
         - License: License.md
         - Privacy Policy: privacy-policy.md

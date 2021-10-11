@@ -1,6 +1,6 @@
 # LegalTech for Consumer Protection
 
-Legal Technologies for Consumer Protection is a [Maastricht University](https://www.maastrichtuniversity.nl/) interdisciplinary research conducted by the Maastricht European Private Law Institute [(M-EPLI)](https://www.maastrichtuniversity.nl/M-EPLI), the Institute of Data Science [(IDS)](https://www.maastrichtuniversity.nl/research/institute-data-science), and the Authority for Consumer and Markets in the Netherlands [(ACM)](https://www.acm.nl/en). **This research aims to explore the legal and technical means for developing innovative and transparent LegalTech software for consumer protection purposes.**
+Legal Technologies for Consumer Protection is a [Maastricht University](https://www.maastrichtuniversity.nl/) interdisciplinary research conducted by the Maastricht European Private Law Institute [(M-EPLI)](https://www.maastrichtuniversity.nl/M-EPLI), the Institute of Data Science [(IDS)](https://www.maastrichtuniversity.nl/research/institute-data-science), and the Authority for Consumer and Markets in the Netherlands [(ACM)](https://www.acm.nl/en). **This research explores the legal and technical means for developing innovative and transparent LegalTech software for consumer protection purposes.**
 
 ------
 
@@ -11,11 +11,13 @@ Legal Technologies for Consumer Protection is a [Maastricht University](https://
 ### Background
 ---
 
-The project builds up on work carried out for DJ Justice and Consumers **Exploring IT/AI tools for monitoring online markets for consumer policy purposes** JUST/2018/CONS/PR/CO01/0123 and a follow up project collabrating with the Dutch authority for consumers and markets. This endeavor got granted a [NWO-IDG](https://www.nwo.nl/onderzoeksprogrammas/nationale-wetenschapsagenda/vernieuwing-en-netwerken/ideeengenerator-nwa-idg-0) award by the research idea of **Using AI for Consumer Protection: creating AI based persona for mystery shopping**. The project aimed to create and improve methods for monitoring e-commerce and online advertising in view of the detection of infringements of existing legal rules and further policy development in the fields of **consumer law, antidiscrimination law and privacy protection** building on interdisciplinary **law and technology research**.
+The project builds upon work carried out for DJ Justice and Consumers **Exploring IT/AI tools for monitoring online markets for consumer policy purposes** JUST/2018/CONS/PR/CO01/0123 and a follow-up project collaborating with the Dutch authority for consumers and markets. This endeavour got granted an [NWO-IDG](https://www.nwo.nl/onderzoeksprogrammas/nationale-wetenschapsagenda/vernieuwing-en-netwerken/ideeengenerator-nwa-idg-0) award by the research idea of **Using AI for Consumer Protection: creating AI-based persona for mystery shopping**. The project aimed to develop and improve methods for monitoring e-commerce and online advertising given the detection of infringements of existing legal rules and further policy development in the fields of **consumer law, anti-discrimination law and privacy protection**, building on interdisciplinary law and technology research.
 
-The 2019 Consumer protection regulation allows consumer authorities to conduct data analysis and online mystery shopping, meaning that a consumer authority may pretend to be a consumer with certain characteristics in order to find out how the (online) seller treats the consumer and, in particular, whether one consumer gets different prices or different advertising than another consumer based on her consumer characteristics eg. a "deal hunter", "negligent shopper" or "elderly female". These selling practices are made possible by algorithmic personalized content using data analytics and computer engineering that often cross the line of the prohibition of unfair commercial practices and infringe the rights of consumers.  
+The 2019 Consumer protection regulation allows consumer authorities to conduct data analysis and online mystery shopping. For example, a consumer authority can determine how the online seller behaves by pretending to be a consumer. In particular, a consumer authority can investigate whether a consumer is shown different prices or adverts by comparing other traits (e.g. a "deal hunter", "negligent shopper", or "elderly female"). 
 
-A new breed of legal technologies appears to be equipped to perform investigations on these issues. Not only consumer law enforcement bodies are primarily benefited by the development of these technologies but also scholars, the goal is to study challenging questions and implement prototypes both from a legal and technical perspectives.  
+These selling practices are made possible by personalized algorithmic content using data analytics and computer engineering that often cross the line of the prohibition of unfair commercial practices and infringe the rights of consumers.
+
+A new breed of legal technologies appears to be equipped to perform investigations on these issues. Not only consumer law enforcement bodies are primarily benefited by the development of these technologies but also scholars. The goal is to study challenging questions and implement prototypes both from a legal and technical perspective.
 
 ---
 ### Publications
@@ -42,34 +44,117 @@ Presentation: [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSf1i7VjW
 ### Software
 ---
 By definition, online automated systems that use algorithmic personalization or recommendation techniques are trained on user internet browsing's data.
-This internet browsing data comes from different sources (or a combination that normally is not disclosed by the tech industry). For example:
+This internet browsing data comes from different sources (or a combination that usually is not disclosed by the tech industry). For example:
 
-- Google Ads impressions are mainly based on user's browsing history or IP locations.
+- Google Ads impressions are based mainly on users' browsing history or IP locations.
 - Google Search results use hardware data (i.e. what OS are you using).
 - Prices of products of some retail websites are based on the user-website interaction helped by cookies.   
 - Social Media Ads are mainly based on the user's behaviour in that social media platform
 - etc.
 
-Therefore, as of 2021, there is no one-size-fits-all technique that can be used to create AI-based Personas for online mystery shopping. However, it is possible to implement separate LegalTech software for investigations and compose user interfaces that can unite them all.
-
-‣ **[Facebook Ads API](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_API.html)**  
-This technology is a ready-to-use **Ads Data Analysis Pipeline** written in Python that uses the official **Facebook Graph API** to access the Facebook Ads library and gather Ads data at scale. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **8,000 Facebook Ads from the Netherlands** given that Facebook Ads API **only** allows accessing `Social Issues, Elections or Politics` category. We gathered key insights of **advertisement practices** about housing and credit as use case example.
-
-‣ **[PersonaBot for Facebook Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_PersonaBot/)**  
-The Facebook PersonaBot is an in-house build **Python library that simulates user-agent** browsing behaviour in the **Facebook news feed**. This library is based on the Selenium web-drivers family and aims to train user-agents on different consumer traits (e.g. middle-aged female gamer) and therefore get exposed to Facebook personalized advertisement. The methodology was tested in a small set-up where Ads screenshots were collected based on different Personas.
-
-‣ **[PersonaBot for Google Ads](https://pedrohserrano.github.io/legaltech-consumer-protection/PersonaBot/)**  
-The Google PersonaBot is an in-house build **Python library that simulates user-agent** browsing through a set of predefined websites that are proxy for certain consumer traits. This library is based on the Selenium web-drivers family and aims to train user-agents on the defined consumer traits (religious male elderly) and therefore get exposed to personalized advertisement Google Ads in neutral websites. The methodology was tested in a small set-up where Ads screenshots were collected based on different Personas.
-
-‣ **[Dutch Products Crawler](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Products_Prices_Analysis.html)**  
-This technology is an automated web scrapper, highly configurable and integrated with CD/CI Github deployments. This library is a Python-based Selenium web-driver that neatly visits the most popular retail websites from the Netherlands and collects Dutch products information including products descriptions, prices and sellers. The methodology and limitations of the code were intensively tested, as a use case, we performed a pilot data analysis on more than **200 Dutch Products** getting key insights of **algorithmic pricing** from different sellers.
-
-‣ **[Spoofing User-Agent and Location](https://pedrohserrano.github.io/legaltech-consumer-protection/Spoofing/)**  
-**Spoof Timezone** and **User-Agent Switcher and Manager** are external opens source tools that can be used to fake one's location and user-agent (device, browser, operating system). The tools come as browser extensions, we have tested them and created tutorials for investigation purposes.
+Therefore, as of 2021, no one-size-fits-all technique can be used to create AI-based Personas for online mystery shopping. However, it is possible to implement separate LegalTech software for investigations and compose user interfaces to unite them all.  
 
 ---
-**Can these technologies be used in anonymity by consumer protection authorities to conduct investigations?**  
-**Yes, [more info on spoofing technologies section under the "Undercover agent anonymity" section.](https://pedrohserrano.github.io/legaltech-consumer-protection/Spoofing/)**
+
+‣ **[Facebook Ads Auditor](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_Auditing/)**  
+
+This technology is a ready-to-use **Ads Analysis Auditing Tool** written in Python that uses the official **Facebook Graph API** to access the Facebook Ads library and gather Ads data at scale. The methodology and limitations of the code were tested. We performed a pilot data analysis on more than **2,000 Facebook Ads from the Netherlands** on the housing and credit topic as a use case.  
+
+‣ **What can be used for?**  
+
+- It can be used for investigations on particular Facebook Ads campaigns that are suspected to be scams, misinformation campaigns or ads that have discriminatory nature. The analysis gives insights over the targeted audience demographics, the money spent and who was the campaign creator.  
+
+‣ **Limitations**  
+
+- No GUI (graphical user interface)  
+- The user needs to have a potential suspicious topic or campaign in mind  
+- Facebook Ads API **only** allows accessing the `Social Issues, Elections or Politics` category.  
+
+---
+
+‣ **[Facebook Ads CrawlerBot](https://pedrohserrano.github.io/legaltech-consumer-protection/Facebook_Ads_CrawlerBot/)**  
+
+This technology is an in-house build **Python script that simulates user-agent** browsing behaviour in the **Facebook news feed**. This script is based on the Selenium web-drivers family and aims to scrape and collect ads in the form of screenshots and raw HTML Ad source code. The methodology was tested by collecting ads based on different traits.    
+
+‣ **What can be used for?**  
+
+- It can be used to conduct investigations of discriminatory ads shown to certain demographic groups (e.g. middle-aged female gamer) given the over personalization of users news feeds in Facebook.  
+
+‣ **Limitations**  
+
+- No GUI (graphical user interface)    
+- The user needs to have access to a Facebook accounts that can represent groups of interest at least once.
+
+---
+
+‣ **[Google Ads PersonaBot](https://pedrohserrano.github.io/legaltech-consumer-protection/PersonaBot/)**  
+
+This technology is an in-house build **Python script that simulates user-agent** browsing behaviour in a set of predefined websites that are proxies of consumer traits. This script is based on the Selenium web-drivers family and aims to train user-agents representing consumer traits. The methodology was tested in a small set-up where screenshots were collected based on different traits.  
+
+‣ **What can be used for?**  
+
+- It can be used to conduct investigations of discriminatory Google ads shown to certain demographic groups (e.g. religious male elderly) on popular websites.  
+
+‣ **Limitations**  
+
+- No GUI (graphical user interface)    
+- The user needs to define the desired websites to investigate, we used:   
+`nu.nl, msn.com, buienradar.nl, bbc.com`  
+- The tool considers around 20 Personas. If the user wants to add a new Persona, then it has to be manually added    
+- Some predefined Persona groups might be not 100% accurate 
+
+---
+
+‣ **[Dutch Prices CrawlerBot](https://pedrohserrano.github.io/legaltech-consumer-protection/Dutch_Prices_CrawlerBot/)** 
+
+This technology is an automated web scrapper, highly configurable and integrated with CD/CI Github deployments. This in-house build library is a Python-based Selenium web-driver that automatically visits popular Dutch retail websites and collects products information, including descriptions, prices and sellers. We tested the methodology by collecting data on more than **200 Dutch Products**    
+
+‣ **What can be used for?**   
+
+- It can be used to conduct investigations of **algorithmic pricing** and online commercial practices from different sellers in retail websites.  
+
+‣ **Limitations**  
+
+- No GUI (graphical user interface)    
+- The tool only collects data and put it in tabular fomat. The analysis is not included.   
+- The tool only works for the following websites:   
+`ah.nl, bol.com, bonprix.com, coolblue.com, lidl.com, mediamark.nl`   
+- Web scrappers technologies depend entirely on the HTML source code of the website. Therefore, when one of those websites changes, the tool won't work for the upgraded website.    
+- The tool can be executed on the Github cloud or from a local device. If run locally, the IP address will be revealed. If the user wants to change the geolocation, it has to be manually done or combined with a VPN.  
+
+---
+
+‣ **[Repurposing BI tools](https://www.tableau.com/)** 
+
+BI (business intelligence) technologies are licenced software for data analysis (e.g. Tableau, KNIME). These tools are popular since allowing big data manipulation using powerful visualizations without requiring coding skills. We tested it for consumer protection issues using the data extracted from the Dutch Prices CrawlerBot. The combination of both tools is an excellent example of how to enhance online consumer investigations.     
+
+‣ **What can be used for?**   
+
+- It can be used to conduct investigations of **algorithmic pricing** by comparing the trend of prices of selected products among different sellers in retail websites.  
+
+‣ **Limitations**  
+
+- It requires a paid license  
+- The user must have ready to use clean data on consumer related issues.  
+
+---
+
+‣ **[Spoofing Extensions](https://pedrohserrano.github.io/legaltech-consumer-protection/spoofing/)**  
+
+**Spoof Timezone** and **User-Agent Switcher and Manager** are external open-source tools that can be used to fake one's location and user-agent (device, browser, operating system). Although the tools come as browser extensions, we have tested them and created tutorials for investigation purposes.  
+
+‣ **What can be used for?**   
+
+- It can be used to conduct manual investigations of anything related to personalization in the web where the personalization algorithms specifically based their information on the user's hardware (e.g. mobile device) or the user's location (e.g. Maastricht).   
+
+‣ **Limitations**  
+
+- Only works for Google Chrome browser  
+- These are browser extensions and do not collect data. In case the user wants to collect data, it has to be done manually.  
+
+---
+**Can these technologies be used in anonymity by consumer protection authorities to conduct investigations? Yes**   
+More info on spoofing technologies section under the ["Undercover agent anonymity" section.](https://pedrohserrano.github.io/legaltech-consumer-protection/Spoofing/)
 
 ---
 ### Links
@@ -88,14 +173,14 @@ All our software is build and tested at scale in the DSRI cluster for computer s
 
 ‣ **Related Work**  
 
-[AdAnalyst](https://chrome.google.com/webstore/detail/adanalyst/dichdbdjmcpgniopphedodbhkcdkoglm) is a browser extension aimed to collect infoprmation about Facebook Ads and investigates advertising practices at scale, this work is result of a research project, [learn more here](https://adanalyst.mpi-sws.org).    
+[AdAnalyst](https://chrome.google.com/webstore/detail/adanalyst/dichdbdjmcpgniopphedodbhkcdkoglm) is a browser extension aimed to collect information about Facebook Ads and investigates advertising practices at scale, this work is the result of a research project, [learn more here](https://adanalyst.mpi-sws.org).    
 
-[OpenWPM](https://openwpm.readthedocs.io/en/latest/) web privacy measurement framework which makes it easy to collect data for privacy studies on a scale of thousands to millions of websites. OpenWPM is built on top of Firefox, with automation provided by Selenium. [learn more here](https://github.com/mozilla/OpenWPM).
+[OpenWPM](https://openwpm.readthedocs.io/en/latest/) is a web privacy measurement framework that makes it easy to collect data for privacy studies on a scale of thousands to millions of websites. OpenWPM is built on top of Firefox, with automation provided by Selenium. [learn more here](https://github.com/mozilla/OpenWPM).
 
 ---
 ### People
 ---
-‣  [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) | **Data Scientist, Institute of Data Science**  
+‣  [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) | **Data Scientist, Faculty of Science and Engineering**  
 [p.hernandezserrano@maastrichtuniversity.nl](mailto:p.hernandezserrano@maastrichtuniversity.nl) 
 
 ‣  [Catalina Goanta](https://www.maastrichtuniversity.nl/nl/catalina.goanta) | **Assistant Professor in Private Law, Faculty of Law**  
