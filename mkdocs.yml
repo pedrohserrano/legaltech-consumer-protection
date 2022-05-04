@@ -20,6 +20,7 @@ nav:
       - Dutch Prices CrawlerBot: Dutch_Prices_CrawlerBot.ipynb
       - Facebook Ads CrawlerBot: Facebook_Ads_CrawlerBot.ipynb
       - Spoofing Technologies: spoofing.md
+      - Emulators: emulators.md
     - Legal:
         - License: License.md
         - Privacy Policy: privacy-policy.md

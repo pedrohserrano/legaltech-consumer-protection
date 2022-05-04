@@ -153,8 +153,23 @@ BI (business intelligence) technologies are licenced software for data analysis 
 - These are browser extensions and do not collect data. In case the user wants to collect data, it has to be done manually.  
 
 ---
+
+‣ **[Emulators](https://pedrohserrano.github.io/legaltech-consumer-protection/emulators/)**  
+
+An emulator allows the user to run programmes that are built for another operating system than the one available on the user's device. To simulate that a users is working on a mobile phone or tablet, when using a desktop or laptop, android or iOS emulators can be used
+
+‣ **What can be used for?**   
+
+- It can be used to conduct manual investigations of commercial practices in the application's interface experienced by the consumer due to personalziation (UI/UX or user-interface/user-experience), for example, dark patterns or personalized pop-ups (e.g. ads).   
+
+‣ **Limitations**  
+
+- Some are paid, others are free. Some need to be downloaded, others run online.
+- The legality of emulators is accepted in the US. In the EU, the matter is still unsettled. Yet, it has been argued in legal scholarship that the creation of emulators for operating systems without the authorisation of the rightholder of the operating system is permitted under the conditions of Article 6 of the Software Directive  
+
+---
 **Can these technologies be used in anonymity by consumer protection authorities to conduct investigations? Yes**   
-More info on spoofing technologies section under the ["Undercover agent anonymity" section.](https://pedrohserrano.github.io/legaltech-consumer-protection/Spoofing/)
+More info on spoofing technologies section under the ["Undercover agent anonymity" section.](https://pedrohserrano.github.io/legaltech-consumer-protection/spoofing/)
 
 ---
 ### Links
@@ -180,11 +195,8 @@ All our software is build and tested at scale in the DSRI cluster for computer s
 ---
 ### People
 ---
-‣  [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) | **Data Scientist, Faculty of Science and Engineering**  
+‣  [Pedro V Hernandez Serrano](https://www.maastrichtuniversity.nl/p.hernandezserrano) | **Data Scientist/Data Policy Advisor, Faculty of Science and Engineering**  
 [p.hernandezserrano@maastrichtuniversity.nl](mailto:p.hernandezserrano@maastrichtuniversity.nl) 
-
-‣  [Catalina Goanta](https://www.maastrichtuniversity.nl/nl/catalina.goanta) | **Assistant Professor in Private Law, Faculty of Law**  
-[catalina.goanta@maastrichtuniversity.nl](mailto:catalina.goanta@maastrichtuniversity.nl)  
 
 ‣  [Caroline Cauffman](https://www.maastrichtuniversity.nl/caroline.cauffman) | **Associate Professor in Consumer and Competition Law, Faculty of Law**  
 [caroline.cauffman@maastrichtuniversity.nl](mailto:caroline.cauffman@maastrichtuniversity.nl)   
